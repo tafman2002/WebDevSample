@@ -1,0 +1,68 @@
+/*Header of the website*/
+.Opening {
+  text-align: center;
+  color: wheat;
+}
+
+/*Default image size of beverages */
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 80px;
+  padding: 10px;
+}
+
+/*Texts other than header*/
+p {
+  text-align: center;
+  color: wheat;
+  font-size:20px;
+}
+
+body {
+  background: url(https://tidewatercoffee.com/wp-content/uploads/2010/12/board-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+figure {
+  display : inline-block;
+}
+
+/*Descriptions of beverages*/
+figcaption {
+  color: wheat;
+  font-style: italic;
+  font-size:20px;
+}
+
+/*Special class added whenever I hover over a beverage image*/
+.enlarge {
+  width: 350px;
+  height: 400px;
+  opacity: 0.7;
+}
+
+.topnav {
+  text-align: center;
+}
+
+/*I can access the elements inside of the class by calling the name tag*/
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 10px;
+  color: wheat;
+}
+
+/*Changes background color of the links whenever I hover over them*/
+.topnav a:hover {
+  background-color: black;
+  color:white;
+}
+
+#sizes {
+  background-color: #03fcf4;
+  border-radius: 5px;
+}
